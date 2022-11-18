@@ -39,6 +39,7 @@
 
 .header--align {
     text-align: center;
+    min-height: 3em;
     
 }
 .footer__availability {
