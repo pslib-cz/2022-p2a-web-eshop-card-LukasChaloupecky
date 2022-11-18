@@ -1,0 +1,38 @@
+html {
+    font-family: 'Hind', Roboto, Verdana, sans-serif;
+    color: var(--grey);
+    justify-content: center;
+    
+}
+
+main {display:flex;justify-content: center;}
+
+
+figure {
+    align-self: stretch;
+    width:270px;
+    min-height: 400px;
+    display:flex;
+    flex-direction: column;
+    padding:20px 20px 45px 20px;
+    border: 1px solid #ddd;
+    transition: border-color .3s;
+}
+
+figure:hover {
+    box-shadow: grey 0px 0px 5px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow:1;
+    font-weight: 700;
+    align-self: flex-end;
+    align-self: stretch;
+}
+a { text-decoration: none; color:var(--grey) }
+s {
+    font-size:80%    ;
+    font-weight: 100;
+}
